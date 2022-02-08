@@ -1,0 +1,278 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c7dc9599c1.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="admin_style.css">
+<link rel="stylesheet" href="nav_style.css">
+</head>
+<body>
+
+	<div class="side"></div>
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a id="brand" href="index.html"><img class="brand" src="logotop.png"></a>
+                <a href="index.html">HOME</a>
+                    <div class="dd_btn">ABOUT</div>
+                      <div class="dd_cont"><a href="about.html">HISTORY</a>
+                      <a href="admin.html">ADMINISTRATION</a>
+                    <a href="chief_coach.html">COACHES</a></div>
+                
+                 <div class="dd_btn">MEDIA</div><div class="dd_cont"><a href="Media-panel.html">NEWS ROOM</a><a href="gallery.html">GALLERY</a></div>
+                 <div class="dd_btn">CSR</div><div class="dd_cont"><a href="youthCSR.html">YOUTH-DEVELOPMENT & CSR</a></div>
+                <a href="womens.html">WOMEN'S</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            
+            <button class="openbtn" onclick="openNav()">☰</button>  
+        </div>
+
+        <div class="topnav" id="myTopnav">
+              <!-- <a href="#about" class="active">About</a>
+                   <div class="dropdown">
+                        <button class="dropbtn">MEDIA
+                        </button>
+                                      <div class="dropdown-content">
+                                          <a href="#">GALLERY</a>
+                                          <a href="#">MEDIA COVERAGE</a>
+                                      </div>
+                    </div> -->
+
+            <a href="contact.html">CONTACT</a>
+                    <a href="womens.html">WOMEN'S</a>
+            <div class="dropdown">
+              <button class="dropbtn">CSR</button>
+                     <div class="dropdown-content">
+                          <a href="youthCSR.html">YOUTH-DEVELOPMENT & CSR</a>
+              </div> </div> 
+
+
+              <div class="dropdown">
+                <button class="dropbtn">MEDIA</button>
+                       <div class="dropdown-content">
+                            <a href="Media-panel.html">NEWS ROOM</a>
+<a href="gallery.html">GALLERY</a>
+                </div> </div> 
+
+            <div class="dropdown">
+              <button class="dropbtn">ABOUT</button>
+                          <div class="dropdown-content">
+                            <a href="about.html">HISTORY</a>
+                            <a href="admin.html">ADMINISTRATION</a>
+                            <a href="chief_coach.html">COACHES</a>
+                          </div>
+            </div> 
+            <a href="index.html">HOME</a>
+
+            <a id="brandTop" href="index.html"><img class="brand" src="logotop.png"></a>
+            
+          </div>
+          
+          
+          <!-- <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script> -->
+
+
+          
+    <script src="nav.js"></script>
+    <script>var dd = document.getElementsByClassName("dd_btn");
+      var i;
+      
+      for (i = 0; i < dd.length; i++) {
+        dd[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dd_cont = this.nextElementSibling;
+        if (dd_cont.style.display === "block") {
+        dd_cont.style.display = "none";
+        } else {
+        dd_cont.style.display = "block";
+        }
+        });
+      }</script>
+
+	
+    <div class="bg">
+        <div class="header">
+            <h2>SOUTHERN SAMITY FC</h2>
+            <div class="logo">
+                <img src="logotop.png" alt="logo">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="hover-board">
+        <h1 class="head">OUR <span class="head2">OFFICIALS</span> </h1>
+
+    <div class="container">
+
+
+    <div class="card">
+     <div class="top"><!-- <span>Notification</span>-->
+        <span>PRESIDENT</span>
+        <div class="picture_AsrafAli"></div>
+        </div>
+        <div class="bottom">
+            <div class="name">Asraf Ali Shaikh</div>
+            <div class="description">The ambitious man, a person with clear aspiration Capt. Asraf was introduced to the club in 2010 for the very first time.</div>
+            <a href="#" ><button  id="myBtn" class="customize">Learn More</button></a>
+            <!--<div class="else">or do something else <a href="#">here</a></div>-->
+        </div>
+	</div>
+	
+	
+	  <div class="card">
+     <div class="top"><!-- <span>Notification</span>-->
+        <span>SR. VICE PRESIDENT</span>
+        <div class="picture_pkmukherjee"></div>
+        </div>
+        <div class="bottom">
+            <div class="name">Dr. Pranab Kumar Mukherjee</div>
+            <div class="description">Dr. Pranab Kumar Mukherjee, the Senior Vice President of Southern Samity FC is well known physician in the city. And on the the other hand he is an Ex - Sports person who has left a glorious mark on the pages of the sport's history.</div>
+            <a href="#" ><button  id="myBtn8" class="customize">Learn More</button></a>
+            <!--<div class="else">or do something else <a href="#">here</a></div>-->
+        </div>
+	</div>
+	
+
+	<div class="card">
+        <div class="top"><span>VICE PRESIDENT</span>
+        <div class="picture_TBagchi"></div>
+        </div>
+        <div class="bottom">
+            <div class="name">DR. TIRTHANKAR BAGCHI</div>
+            <div class="description">Dr. Tirthankar Bagchi, General Manager Medical Services & Medical Superintendent, AMRI Hospital, Kolkata has become an integral and inseparable part of Southern Samity Club as a life member within a short period of time.</div>
+            <a href="#"><button id="myBtn7"class="customize">Learn More</button></a>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="top"><span>VICE PRESIDENT</span>
+        <div class="picture_lalitsharma"></div>
+        </div>
+        <div class="bottom">
+            <div class="name">Lalit Sharma</div>
+            <div class="description"> Lalit Sharma, Vice President of Southern Samity, is an entrepreneur and former martial arts enthusiast.
+                He received a Black belt in Karate while in school at the age of fourteen. </div>
+            <a href="#"><button id="myBtn1" class="customize">Learn More</button></a>
+            <!--<div class="else">or do something else <a href="#">here</a></div>-->
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="top"><span>CHAIR PERSON</span>
+        <div class="picture"></div>
+        </div>
+        <div class="bottom">
+            <div class="name">JINIA ROY CHOWDHURY</div>
+            <div class="description">Jinia Roy Chowdhury started her career in the field of acting and modeling and for her, football was a natural passion. In 2018, she became involved with the prestigious Southern Samity Football Club.</div>
+            <a href="#"><button  id="myBtn2" class="customize">Learn More</button></a>
+            <!--<div class="else">or do something else <a href="#">here</a></div>-->
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="top"><span>GENERAL SECRETARY</span>
+        <div class="picture_SouravPal"></div>
+        </div>
+        <div class="bottom">
+            <div class="name">Sourav Pal</div>
+            <div class="description">With an immense personality and desire to become a footballer, Sourav Pal then joined Southern Samity. He handled the duties of General Secretary day-in and day-out for many years. </div>
+            <a href="#"><button id="myBtn3" class="customize">Learn More</button></a>
+            <!--<div class="else">or do something else <a href="#">here</a></div>-->
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="top"><span>FOOTBALL SECRETARY</span>
+        <div class="picture_KushalBanerjee"></div>
+        </div>
+        <div class="bottom">
+            <div class="name">Kushal Banerjee</div>
+            <div class="description">The association between Kushal Banerjee and football dates back to 1979 when he joined Kalighat Milani Football Club. He played for Calcutta Customs Club from 1980 to 1998, as well as a season for Rajasthan Club in 1991.</div>
+            <a href="#"><button id="myBtn4" class="customize">Learn More</button></a>
+            <!--<div class="else">or do something else <a href="#">here</a></div>-->
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="top"><span>C E O</span>
+        <div class="picture_AmitSen"></div>
+        </div>
+        <div class="bottom">
+            <div class="name">Amit Sen</div>
+            <div class="description">Mr. Amit Sen is the chief executive officer (CEO) of Southern Samity Football Club. He joined Southern Samity in 2010, pursuing an interest in football that started at an early age.</div>
+            <a href="#"><button id="myBtn5" class="customize">Learn More</button></a>
+            <!--<div class="else">or do something else <a href="#">here</a></div>-->
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="top"><span>YOUTH DEVELOPMENT</span>
+        <div class="picture_RajdeepDutta"></div>
+        </div>
+        <div class="bottom">
+            <div class="name">RAJDEEP DUTTA</div>
+            <div class="description">Rajdeep Dutta has nearly ten years of experience as a football development officer working with young players. He is a sports fanatic with an affinity for football.</div>
+            <a href="#"><button id="myBtn6"class="customize">Learn More</button></a>
+            <!--<div class="else">or do something else <a href="#">here</a></div>-->
+        </div>
+    </div>
+    </div>
+
+
+</div>
+
+<div class="learnmore">
+          <h1>Would you like to learn more about <span class="southernfc">SOUTHERN SAMITY FC!</span></h1>
+          <a href="about.html" target="_blank"><button class="btn" type="button">Learn more</button></a>
+      </div>
+
+	<footer>
+      <div class="about flex25">
+          <h4>ABOUT</h4>
+          <p>For the first time in 1945, Southern Samity FC made an enormous mark in Kolkata. Southern Samity was the runner-up in the 2016 I-League 2nd Division, much to the delight of the fans. The club has a clear mission and goals that it hopes to achieve shortly.</p>
+      </div>
+      <div class="foot-email flex25">
+          <h4>EMAIL TO</h4>
+          <a class="email-to atag" href="mailto:support@southernsamityfc.in">support@southernsamityfc.in</a>
+      </div>
+      <div class="check-updates flex25">
+          <h4>CHECK LATEST UPDATES</h4>
+          <div class="social-link">
+              <span><a class="atag" href="https://www.facebook.com/pages/category/Sports-Club/Southern-Samity-Football-Club-560710661086397/" target="_blank"><i class="fab fa-facebook-square"></i></a></span>
+              <span><a class="atag" href="https://instagram.com/southernsamity_official?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram"></i></a></span>
+              <span><a class="atag" href="https://mobile.twitter.com/FcSamity" target="_blank"><i class="fab fa-twitter"></i></a></span>
+  
+          </div>
+  
+      </div>
+      <div class="copyright flex25">
+          <h4>TERMS OF USE</h4>
+          <p>© Copyright 2021 Southern Samity FC All Rights Reserved</p>
+      </div>
+  </footer>
+
+
+<div class="popup" id="popup">
+    <p id="popup-close" class="popup-close"><i class="fas fa-times"></i></p>
+    <div class="popup-left">
+        <img id="admin-image" src="#" alt="admin img">
+    </div>
+    <div class="popup-right">
+        <p id="admin-text" type="text"></p>
+    </div>
+    
+</div>
+<script src="pop-up_admin.js"></script>
+</body>
+</html>

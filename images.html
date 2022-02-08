@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media-images</title>
+</head>
+<body>
+
+    <style>
+        #container1{
+    background-color: #0018b4;
+    padding: 10%;
+    box-shadow: 0 0 90px black;
+}
+
+.news-item{
+    width: 70%;
+    padding: 20px;
+    position: relative;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 90px black;
+    z-index: 50;
+    cursor: pointer;
+}
+.news-item:hover{
+    border: 10px solid #f5ea46;
+}
+
+
+
+@media screen and (max-width: 500px){
+    .news-item{
+        width: 90%;
+    }
+}
+    </style>
+    
+        <div id="container1">
+            <img class="news-item" id = "item1" src="news-imgs/Picture8.jpg" alt="">
+            <img class="news-item" id = "item2" src="news-imgs/Picture7.jpg" alt="">
+            <img class="news-item" id = "item3" src="news-imgs/Picture3.png" alt="">
+            <img class="news-item" id = "item4" src="news-imgs/Picture16.png" alt="">
+            <img class="news-item" id = "item5" src="news-imgs/Picture9.jpg" alt="">
+            <img class="news-item" id = "item6" src="news-imgs/Picture12.png" alt="">
+            <img class="news-item" id = "item7" src="news-imgs/Picture11.png" alt="">
+            <img class="news-item" id = "item8" src="news-imgs/Picture13.png" alt="">
+            <img class="news-item" id = "item9" src="news-imgs/Picture10.jpg" alt="">
+            <img class="news-item" id = "item10" src="news-imgs/Picture17.png" alt="">
+            <img class="news-item" id = "item11" src="news-imgs/Picture14.png" alt="">
+            <img class="news-item" id = "item12" src="news-imgs/Picture20.png" alt="">
+            <img class="news-item" id = "item13" src="news-imgs/Picture18.png" alt="">
+            <img class="news-item" id = "item14" src="news-imgs/Picture4.jpg" alt="">
+            <img class="news-item" id = "item15" src="news-imgs/Picture6.jpg" alt="">
+            <img class="news-item" id = "item17" src="news-imgs/Picture15.png" alt="">
+            <img class="news-item" id = "item18" src="news-imgs/Picture19.png" alt="">
+            <img class="news-item" id = "item19" src="news-imgs/Picture2.jpg" alt="">
+        </div>
+</body>
+</html>

@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    text-align: center;
+}
+
+.all-background{
+    background-image: url(3.png);
+    background-size: contain;
+}
+
+.bg{
+    background-image: url("bg-ground.jpg");
+    background-size: cover;                  
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0 10px 0 #0018b4;
+}
+
+.header{
+    /* background-image: linear-gradient(to right, #0018b4, #0018b45d); */
+    background-image: linear-gradient(to right, #f5ea46, #f5e946ad);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+.header h2{
+    flex: 60%;
+    color: #0018b4;
+    font-size: 5vw;
+    padding-top: 20px;
+}
+
+.logo{
+    flex: 40%;
+}
+
+
+.container{
+    width: 90%;
+    margin: 50px auto;
+    padding: 40px 100px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px black;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.container h1{
+    font-weight: 100;
+    color: rgb(43, 43, 43);
+    padding: 20px 50px 50px 50px ;
+}
+
+.dairy{
+    font-weight: 900;
+    font-size: 1.2em;
+    color: #0018b4;
+    text-shadow: 3px 3px 0 #f5ea46;
+}
+
+.d-md-block{
+    background-color: #0018b480;
+    color: #f5ea46;
+    border-radius: 15px;
+}
+
+.carousel-inner img{
+    border-radius: 15px;
+}
+
+.carousel-control{
+    border-radius: 15px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .container{
+        width: 90%;
+        padding: 0 10px 50px 10px;
+    }
+    .d-md-block{
+        display: none;
+    }
+    
+}
+
+.contain-gallery{
+    padding: 20px;
+    width: 90%;
+    margin: 100px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 25px black;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+.contain-gallery h1{
+    padding: 50px;
+}
+
+div.gallery {
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    height: 300px;
+    }
+    
+    div.gallery:hover {
+        display:zoom;
+    }
+    
+    div.gallery img {
+        width: 100%;
+        height: auto;
+        border: 1px solid white;
+        border-radius: 5px;
+        transition-duration: 0.5s;
+    }
+    div.gallery img:hover{
+        transform: scale(0.95);
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .responsive {
+        padding: 10px;
+        float: left;
+        width: 24.99999%;
+    }
+
+    .gallery img{
+        border-radius: 5px;
+    }
+    
+    @media only screen and (max-width: 700px) {
+        .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .responsive {
+        width: 100%;
+        }
+        .contain-gallery{
+            padding: 5px;
+        }
+    }
+    
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+    .learnmore{
+        background-color: #f5ea46;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0 0 10px #0018b4;
+    }
+    
+    h1{
+        color: #0018b4;
+        font-weight: 100;
+    }
+    
+    h1 span{
+        font-weight: 900;
+    }
+    
+    .btn{
+        padding: 10px 30px;
+        border: 3px solid #0018b4;
+        border-radius: 15px;
+        color: #0018b4;
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+    
+    .btn:hover{
+        background-color: #0018b4;
+        color: #f5ea46;
+    }
+    
+    
+    
+    
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        background-color: #0018b4;
+        color: white;
+        text-align: left;
+    }
+    
+    footer i{
+        color: white;
+    }
+    
+    footer a{
+        color: white ;
+padding: 15px;
+    }
+    
+    footer h4{
+        color: #f5ea46;
+        padding-bottom: 20px;
+    }
+    
+    .flex25{
+        flex: 25%;
+        padding: 10px;
+    }
+    
+    footer p{
+        font-size: 12px;
+    }
+    
+    .atag{
+        text-decoration: none;
+    }
+    
+    span{
+        display: inline-block;
+    }
+    
+    .fab{
+        font-size: 40px;
+    }
+    
+    .social-link p{
+        padding: 0 0 10px 10px;
+        width: 80%;
+    }
+    
+    @media screen and (max-width:500px){
+        .flex25{
+            width: 100%;
+            text-align: center;
+        }
+        .social-link p{
+            margin: 0 auto;
+        }
+        .footer{
+            text-align: center;
+        }
+    }
+
+@media screen and (max-width:500px){
+.header h2{ display:none;
+ }
+.logo{
+padding-bottom:10px;
+}

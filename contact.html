@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact_style.css">
+<link rel="stylesheet" href="nav_style.css">
+    <script src="https://kit.fontawesome.com/c7dc9599c1.js" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+
+
+<div class="side"></div>
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a id="brand" href="index.html"><img class="brand" src="logotop.png"></a>
+                <a href="index.html">HOME</a>
+                    <div class="dd_btn">ABOUT</div>
+                      <div class="dd_cont"><a href="about.html">HISTORY</a>
+                      <a href="admin.html">ADMINISTRATION</a>
+                    <a href="chief_coach.html">COACHES</a></div>
+                
+                 <div class="dd_btn">MEDIA</div><div class="dd_cont"><a href="Media-panel.html">NEWS ROOM</a><a href="gallery.html">GALLERY</a></div>
+                 <div class="dd_btn">CSR</div><div class="dd_cont"><a href="youthCSR.html">YOUTH-DEVELOPMENT & CSR</a></div>
+                <a href="womens.html">WOMEN'S</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            
+            <button class="openbtn" onclick="openNav()">☰</button>  
+        </div>
+
+        <div class="topnav" id="myTopnav">
+              <!-- <a href="#about" class="active">About</a>
+                   <div class="dropdown">
+                        <button class="dropbtn">MEDIA
+                        </button>
+                                      <div class="dropdown-content">
+                                          <a href="#">GALLERY</a>
+                                          <a href="#">MEDIA COVERAGE</a>
+                                      </div>
+                    </div> -->
+
+            <a href="contact.html">CONTACT</a>
+                    <a href="womens.html">WOMEN'S</a>
+            <div class="dropdown">
+              <button class="dropbtn">CSR</button>
+                     <div class="dropdown-content">
+                          <a href="youthCSR.html">YOUTH-DEVELOPMENT & CSR</a>
+              </div> </div> 
+
+
+              <div class="dropdown">
+                <button class="dropbtn">MEDIA</button>
+                       <div class="dropdown-content">
+                            <a href="Media-panel.html">NEWS ROOM</a>
+<a href="gallery.html">GALLERY</a>
+                </div> </div> 
+
+            <div class="dropdown">
+              <button class="dropbtn">ABOUT</button>
+                          <div class="dropdown-content">
+                            <a href="about.html">HISTORY</a>
+                            <a href="admin.html">ADMINISTRATION</a>
+                            <a href="chief_coach.html">COACHES</a>
+                          </div>
+            </div> 
+            <a href="index.html">HOME</a>
+
+            <a id="brandTop" href="index.html"><img class="brand" src="logotop.png"></a>
+            
+          </div>
+          
+          
+          <!-- <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script> -->
+
+
+          
+    <script src="nav.js"></script>
+    <script>var dd = document.getElementsByClassName("dd_btn");
+      var i;
+      
+      for (i = 0; i < dd.length; i++) {
+        dd[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dd_cont = this.nextElementSibling;
+        if (dd_cont.style.display === "block") {
+        dd_cont.style.display = "none";
+        } else {
+        dd_cont.style.display = "block";
+        }
+        });
+      }</script>
+    <div class="bg">
+        <div class="header">
+            <h2>SOUTHERN SAMITY FC</h2>
+            <div class="logo">
+                <img src="logotop.png" alt="logo">
+            </div>
+        </div>
+    </div>
+<div class="container">
+    <div class="form-for-email">
+        <h3>Talk to us!</h3>
+        <h2 class="form-heading">We will get back to you as soon as possible.</h2>
+
+	<form action="https://formspree.io/f/xqkwldoj" method="POST">
+            <label for="fname">Full Name*</label>
+            <input type="text" id="fname" name="fullname" placeholder="Your name..">
+            
+            <label for="email"></i>Email id.*</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+
+            <label for="Phone No.">Phone No.*</label>
+            <input type="text" id="PhoneNo." name="Phone No." placeholder="0123456789">
+
+            <label for="Subject">Subject</label>
+            <input type="text" id="Subject" name="Subject" placeholder="Write the subject...">
+            
+            <label for="Message">Message</label>
+            <textarea id=">Message" name=">Message" placeholder="Write something.." style="height:100px"></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <div class="details">
+        <div class="insider">
+            <i class="fas fa-map-marker-alt"></i>
+            <h4>ADDRESS</h4>
+            <p>Rabindra Sarobar Stadium, Block-III, Kolkata-700029</p>
+        </div>
+        <div class="insider">
+            <i class="fas fa-phone-alt"></i>
+            <h4>CALL US</h4>
+            <p>+91 7604085454 / +91 7003292563</p>
+        </div>
+        <div class="insider">
+            <i class="fas fa-paper-plane"></i>
+            <h4>Write Us</h4>
+            <a class="email-to" href="mailto:support@southernsamityfc.in">support@southernsamityfc.in</a>
+        </div>
+    </div>
+</div>
+
+
+<section id="contact-ending">
+    <div class="social">
+        <h3>Follow us on</h3>
+        <a href="https://www.facebook.com/pages/category/Sports-Club/Southern-Samity-Football-Club-560710661086397/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://instagram.com/southernsamity_official?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="learnmore">
+          <h1>Would you like to learn more about <span class="southernfc">SOUTHERN SAMITY FC!</span></h1>
+          <a href="about.html" target="_blank"><button class="btn" type="button">Learn more</button></a>
+      </div>
+
+	<footer>
+      <div class="about flex25">
+          <h4>ABOUT</h4>
+          <p>For the first time in 1945, Southern Samity FC made an enormous mark in Kolkata. Southern Samity was the runner-up in the 2016 I-League 2nd Division, much to the delight of the fans. The club has a clear mission and goals that it hopes to achieve shortly.</p>
+      </div>
+      <div class="foot-email flex25">
+          <h4>EMAIL TO</h4>
+          <a class="email-to atag" href="mailto:support@southernsamityfc.in">support@southernsamityfc.in</a>
+      </div>
+      <div class="check-updates flex25">
+          <h4>CHECK LATEST UPDATES</h4>
+          <div class="social-link">
+              <span><a class="atag" href="https://www.facebook.com/pages/category/Sports-Club/Southern-Samity-Football-Club-560710661086397/" target="_blank"><i class="fab fa-facebook-square"></i></a></span>
+              <span><a class="atag" href="https://instagram.com/southernsamity_official?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram"></i></a></span>
+              <span><a class="atag" href="https://mobile.twitter.com/FcSamity" target="_blank"><i class="fab fa-twitter"></i></a></span>
+  
+          </div>
+  
+      </div>
+      <div class="copyright flex25">
+          <h4>TERMS OF USE</h4>
+          <p>© Copyright 2021 Southern Samity FC All Rights Reserved</p>
+      </div>
+  </footer>
+
+</body>
+</html>

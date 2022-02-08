@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* inner css of the form */
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 10px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+  /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+  /* Add a background color and some padding around the form */
+.form-for-email {
+    border-radius: 5px;
+    background-color: #f2f2f238;
+    padding: 20px 80px;
+    flex: 60%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
+}
+
+
+.details{
+    flex: 40%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background: #f5e94642;
+    border-radius: 2%;
+}
+
+.form-heading{
+    padding-bottom: 20px;
+}
+
+.bg{
+            background-image: url(bg-ground.jpg);
+            background-size: cover;                  
+            background-repeat: no-repeat;
+            background-position: center center;              
+        }
+        
+        .header{
+            /* background-image: linear-gradient(to right, #0018b4, #0018b45d); */
+            background-image: linear-gradient(to right, #f5ea46, #f5e946a9);
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            padding-top: 10%;
+            box-shadow: 0 10px 0 #0018b4;
+        }
+        
+        
+        .header h2{
+            flex: 60%;
+            color: #0018b4;
+            font-size: 5vw;
+            padding-top: 20px;
+        }
+        
+        .logo{
+            flex: 40%;
+        }
+
+
+h3{
+    color: #0018b4;
+    font-size: 3.5vw;
+    padding-bottom: 20px; 
+}
+
+h4{
+    color: #0018b4;
+    padding-bottom: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.insider{
+    padding: 50px 10px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px; 
+}
+
+.email-to{
+    text-decoration: none;
+    width: 100%;
+    position: relative;
+    color:#3b3b3b
+}
+
+i{
+    font-size: 50px;
+    color: #0018b4;
+}
+
+@media screen and (max-width: 500px){
+    .form-for-email{
+        padding: 20px 50px;
+    }
+    .details{
+        width: 100%;
+    }
+    .flex25{
+        width: 100%;
+        text-align: center;
+    }
+    .social-link{
+        width: 100%;
+    }
+}
+
+.social {
+    padding: 50px;
+    text-align: center;
+}
+
+.social h3{
+    font-weight: 100;
+    font-size: 2em;
+}
+
+.social i{
+    font-size: 2em;
+    padding: 0 10px;
+}
+
+.learnmore{
+    background-color: #f5ea46;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px #0018b4;
+}
+
+h1{
+    color: #0018b4;
+    font-weight: 100;
+}
+
+h1 span{
+    font-weight: 900;
+}
+
+.btn{
+    padding: 10px 30px;
+    border: 3px solid #0018b4;
+    border-radius: 15px;
+    color: #0018b4;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.btn:hover{
+    background-color: #0018b4;
+    color: #f5ea46;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: #0018b4;
+    color: white;
+    font-size: 1rem;
+
+}
+
+footer i{
+    color: white;
+}
+
+footer a{
+    color: white ;
+}
+
+footer h4{
+    color: #f5ea46;
+    padding-bottom: 20px;
+}
+
+.flex25{
+    flex: 25%;
+    padding: 10px;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+.atag{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+}
+
+span{
+    display: inline-block;
+}
+
+.fab{
+    font-size: 40px;
+}
+
+.social-link p{
+    padding: 0 0 10px 10px;
+    width: 80%;
+}
+
+@media screen and (max-width:500px){
+    .flex25{
+        width: 100%;
+        text-align: center;
+    }
+    .social-link p{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:500px){
+.header h2{ display:none;
+ }
+.logo{
+padding-bottom:10px;
+}
