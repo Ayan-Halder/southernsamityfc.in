@@ -61,6 +61,13 @@ btn.onclick = function() {
     document.getElementById("admin-text").innerHTML=" Dr. Pranab Kumar Mukherjee, the Senior Vice President of Southern Samity FC is well known physician in the city. And on the the other hand he is an Ex - Sports person who has left a glorious mark on the pages of the sport's history. Now he is looking guiding us with his administrative skills and experiences gained through the years.";
 }
 
+var btn = document.getElementById("myBtn9");
+btn.onclick = function() {
+    document.getElementById("popup").style.display = "flex";
+    document.getElementById("admin-image").src="Manabendra_Poddar.jpeg";
+    document.getElementById("admin-text").innerHTML=" With an immense passion for football, and nuture the clubs goodwill to the society Manabendra Poddar joined Southern Samity. He has handled the duties of Cultural Secretary day-in and day-out for many years with his great adminstrative capabilities.";
+}
+
 
 var btn = document.getElementById("popup-close");
 btn.onclick = function() {
